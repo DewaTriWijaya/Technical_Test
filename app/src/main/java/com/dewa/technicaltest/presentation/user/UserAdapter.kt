@@ -1,5 +1,6 @@
 package com.dewa.technicaltest.presentation.user
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -39,6 +40,7 @@ class UserAdapter :
         private val binding: ItemUserBinding
     ) : RecyclerView.ViewHolder(binding.root) {
 
+        @SuppressLint("SetTextI18n")
         fun bind(user: User) {
 
             binding.tvName.text = user.name

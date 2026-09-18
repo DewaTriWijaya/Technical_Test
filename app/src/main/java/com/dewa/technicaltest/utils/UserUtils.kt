@@ -1,6 +1,5 @@
 package com.dewa.technicaltest.utils
 
-import android.app.Activity
 import com.dewa.technicaltest.data.model.User
 import kotlin.collections.filter
 

@@ -21,7 +21,7 @@ class UserViewModel(
                 val users = repository.getUsers()
                 _uiState.value = UserUiState.Success(users)
             } catch (e: Exception) {
-                _uiState.value = UserUiState.Error(e.message ?: "Terjadi kesalahan")
+                _uiState.value = UserUiState.Error(e.message.toString())
             }
         }
     }

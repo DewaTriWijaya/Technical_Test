@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Technical Test</string>
+    <string name="users_age">Active Users Age ≥ 18</string>
 </resources>
