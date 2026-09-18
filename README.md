@@ -298,6 +298,7 @@ object UserManager {
 }
 ```
 Jika membutuhkan `Context` untuk kebutuhan application-level, gunakan **Application Context**, bukan `Activity Context`.
+
 ---
 
 # 5. Search User
@@ -467,11 +468,6 @@ Screenshot kode:
 * `UserRepository`
 Karena API URL sebenarnya belum tersedia, pengujian terhadap server asli belum dapat dilakukan.
 
-### Soal 4
-Screenshot implementasi `UserManager` sebelum dan sesudah perbaikan.
-
-### Soal 5
-Screenshot SearchView ketika melakukan pencarian user dan menampilkan hasil yang telah difilter.
 ---
 
 ## Notes
